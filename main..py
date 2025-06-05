@@ -113,8 +113,6 @@ def convert_and_add_to_list(recipes_list, seven_recipes):
         with open(eachfile, mode="r", encoding="utf-8") as this_file:
             some_recipe_json = json.load(this_file)
             recipes_list.append(some_recipe_json)  # No json.dumps
-
-
 breakfast_list = []
 lunch_list = []
 dinner_list = []
@@ -122,7 +120,21 @@ convert_and_add_to_list(breakfast_list,seven_breakfast_recipes)
 convert_and_add_to_list(lunch_list,seven_lunch_recipes)
 convert_and_add_to_list(dinner_list,seven_diner_recipes)
 
-print(f"todays breakfast {breakfast_list[0]['name']}")
+#Now make a grocery list
+grocery_list_with_duplicates = []
+for recipe in breakfast_list:
+    for item in recipe["ingredients"]:
+        grocery_list_with_duplicates.append(item)
+for recipe in lunch_list:
+    for item in recipe["ingredients"]:
+        grocery_list_with_duplicates.append(item)
+for recipe in dinner_list:
+    for item in recipe["ingredients"]:
+        grocery_list_with_duplicates.append(item)
+grocery_list_without_duplicates = list(set(grocery_list_with_duplicates))
+
+
+
 body_of_email = f'''
 Here is your weekly munchies for 6/5/2025.
 You'll be having the following
@@ -131,48 +143,93 @@ Monday,
     Lunch: {lunch_list[0]['name']}
     Dinner: {dinner_list[0]['name']}
 Tuesday,
-    Morning: Sausage Biscuit
-    Lunch: Chicken Salad
-    Dinner: Chicken and Rice
+    Morning: {breakfast_list[1]['name']}
+    Lunch: {lunch_list[1]['name']}
+    Dinner: {dinner_list[1]['name']}
 Wednesday,
-    Morning: Sausage Biscuit
-    Lunch: Chicken Salad
-    Dinner: Chicken and Rice
+    Morning: {breakfast_list[2]['name']}
+    Lunch: {lunch_list[2]['name']}
+    Dinner: {dinner_list[2]['name']}
 Thursday,
-    Morning: Sausage Biscuit
-    Lunch: Chicken Salad
-    Dinner: Chicken and Rice
+    Morning: {breakfast_list[3]['name']}
+    Lunch: {lunch_list[3]['name']}
+    Dinner: {dinner_list[3]['name']}
 Friday,
-    Morning: Sausage Biscuit
-    Lunch: Chicken Salad
-    Dinner: Chicken and Rice
+    Morning: {breakfast_list[4]['name']}
+    Lunch: {lunch_list[4]['name']}
+    Dinner: {dinner_list[4]['name']}
 Saturday,
-    Morning: Sausage Biscuit
-    Lunch: Chicken Salad
-    Dinner: Chicken and Rice
+    Morning: {breakfast_list[5]['name']}
+    Lunch: {lunch_list[5]['name']}
+    Dinner: {dinner_list[5]['name']}
 Sunday,
-    Morning: Steak and Egg
-    Lunch: Ham Sandwich
-    Diner: Lasagna
+    Morning: {breakfast_list[6]['name']}
+    Lunch: {lunch_list[6]['name']}
+    Dinner: {dinner_list[6]['name']}
 
 You'll be needing the following
-Ham
-Lettuce
-Tomato
-Rice
-Chicken
-Turkey
+{grocery_list_without_duplicates}
 
 Here's a simple timeline of events
-Sunday:
-    Cook 2 steaks
-    Boil 2 eggs
-    Make lasagna
 Monday:
-    do stuff..
+    {breakfast_list[0]['tasks']}
+    {lunch_list[0]['tasks']}
+    {dinner_list[0]['tasks']}
+Tuesday:
+    {breakfast_list[1]['tasks']}
+    {lunch_list[1]['tasks']}
+    {dinner_list[1]['tasks']}
+Wednesday,:
+    {breakfast_list[2]['tasks']}
+    {lunch_list[2]['tasks']}
+    {dinner_list[2]['tasks']}
+Thursday:
+    {breakfast_list[3]['tasks']}
+    {lunch_list[3]['tasks']}
+    {dinner_list[3]['tasks']}
+Friday:
+    {breakfast_list[4]['tasks']}
+    {lunch_list[4]['tasks']}
+    {dinner_list[4]['tasks']}
+Saturday:
+    {breakfast_list[5]['tasks']}
+    {lunch_list[5]['tasks']}
+    {dinner_list[5]['tasks']}
+Sunday:
+    {breakfast_list[1]['tasks']}
+    {lunch_list[1]['tasks']}
+    {dinner_list[1]['tasks']}
+
 
 Here are the recipes :)
-Monday.'''
+Monday:
+    Breakfast: {breakfast_list[0]['recipe']}
+    Lunch: {lunch_list[0]['recipe']}
+    Dinner: {dinner_list[0]['recipe']}
+Tuesday:
+    Breakfast: {breakfast_list[0]['recipe']}
+    Lunch: {lunch_list[0]['recipe']}
+    Dinner: {dinner_list[0]['recipe']}
+Wednesday:
+    Breakfast: {breakfast_list[0]['recipe']}
+    Lunch: {lunch_list[0]['recipe']}
+    Dinner: {dinner_list[0]['recipe']}
+Thursday:
+    Breakfast: {breakfast_list[0]['recipe']}
+    Lunch: {lunch_list[0]['recipe']}
+    Dinner: {dinner_list[0]['recipe']}
+Friday:
+    Breakfast: {breakfast_list[0]['recipe']}
+    Lunch: {lunch_list[0]['recipe']}
+    Dinner: {dinner_list[0]['recipe']}
+Saturday:
+    Breakfast: {breakfast_list[0]['recipe']}
+    Lunch: {lunch_list[0]['recipe']}
+    Dinner: {dinner_list[0]['recipe']}
+
+
+
+'''
 
 
 
