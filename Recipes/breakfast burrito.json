@@ -1,0 +1,10 @@
+{
+  "name": "breakfast burrito",
+  "ingredients": ["eggs", "tortilla", "cheddar", "salsa", "black beans", "spinach"],
+  "recipe": "Scramble eggs, wrap with all ingredients in a tortilla.",
+  "breakfast": true,
+  "lunch": true,
+  "dinner": false,
+  "days": 2,
+  "tasks": "Cook and wrap ingredients in tortilla"
+}

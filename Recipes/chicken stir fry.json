@@ -1,0 +1,10 @@
+{
+  "name": "chicken stir fry",
+  "ingredients": ["chicken breast", "bell peppers", "broccoli", "soy sauce", "ginger", "garlic", "rice"],
+  "recipe": "Stir fry chicken and vegetables, add sauce. Serve over rice.",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": true,
+  "days": 2,
+  "tasks": "Cook rice, stir fry chicken and veggies"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "quinoa bowl",
+  "ingredients": ["quinoa", "black beans", "corn", "avocado", "lime", "cilantro"],
+  "recipe": "Cook quinoa, mix all ingredients in bowl and top with lime and cilantro.",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": false,
+  "days": 3,
+  "tasks": "Cook quinoa and mix ingredients"
+}

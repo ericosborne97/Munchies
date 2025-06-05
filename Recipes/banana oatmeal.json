@@ -1,0 +1,10 @@
+{
+  "name": "banana oatmeal",
+  "ingredients": ["oats", "milk", "banana", "honey", "cinnamon"],
+  "recipe": "Cook oats in milk, stir in sliced banana, honey, and cinnamon.",
+  "breakfast": true,
+  "lunch": false,
+  "dinner": false,
+  "days": 1,
+  "tasks": "Cook oats and add toppings"
+}

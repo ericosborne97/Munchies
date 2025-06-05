@@ -1,0 +1,10 @@
+{
+  "name": "beef tacos",
+  "ingredients": ["ground beef", "taco shells", "lettuce", "cheddar", "sour cream", "salsa"],
+  "recipe": "Cook beef with seasoning, fill taco shells with toppings.",
+  "breakfast": false,
+  "lunch": false,
+  "dinner": true,
+  "days": 2,
+  "tasks": "Cook beef and assemble tacos"
+}

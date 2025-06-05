@@ -1,0 +1,10 @@
+{
+  "name": "pancakes",
+  "ingredients": ["pancake mix", "milk", "egg", "butter", "syrup"],
+  "recipe": "Mix ingredients, cook on skillet, serve with syrup.",
+  "breakfast": true,
+  "lunch": false,
+  "dinner": false,
+  "days": 2,
+  "tasks": "Mix batter and cook pancakes"
+}

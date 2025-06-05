@@ -1,0 +1,10 @@
+{
+  "name": "spaghetti bolognese",
+  "ingredients": ["ground beef", "spaghetti", "tomato sauce", "onion", "garlic", "olive oil", "basil"],
+  "recipe": "Cook beef with onion and garlic, add sauce, simmer. Boil pasta and serve.",
+  "breakfast": false,
+  "lunch": false,
+  "dinner": true,
+  "days": 3,
+  "tasks": "Cook sauce and boil spaghetti"
+}

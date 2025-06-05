@@ -1,0 +1,10 @@
+{
+  "name": "scrambled eggs",
+  "ingredients": ["eggs", "milk", "salt", "pepper", "butter"],
+  "recipe": "Whisk eggs with milk, cook on medium heat with butter until fluffy.",
+  "breakfast": true,
+  "lunch": false,
+  "dinner": false,
+  "days": 1,
+  "tasks": "Whisk and cook eggs"
+}

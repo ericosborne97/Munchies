@@ -1,0 +1,10 @@
+{
+  "name": "avocado toast",
+  "ingredients": ["bread", "avocado", "salt", "pepper", "olive oil", "lemon juice"],
+  "recipe": "Toast the bread, smash the avocado with salt, pepper, lemon. Spread on toast.",
+  "breakfast": true,
+  "lunch": false,
+  "dinner": false,
+  "days": 1,
+  "tasks": "Toast bread and prepare avocado mix"
+}

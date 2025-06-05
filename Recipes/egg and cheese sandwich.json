@@ -1,0 +1,10 @@
+{
+  "name": "egg and cheese sandwich",
+  "ingredients": ["bread", "egg", "cheddar cheese", "butter"],
+  "recipe": "Fry egg, toast bread, melt cheese in sandwich.",
+  "breakfast": true,
+  "lunch": false,
+  "dinner": false,
+  "days": 1,
+  "tasks": "Cook egg and assemble sandwich"
+}

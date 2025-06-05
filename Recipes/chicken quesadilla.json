@@ -1,0 +1,10 @@
+{
+  "name": "chicken quesadilla",
+  "ingredients": ["tortilla", "shredded chicken", "cheddar cheese", "salsa"],
+  "recipe": "Place chicken and cheese between tortillas, cook until crispy, serve with salsa.",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": true,
+  "days": 2,
+  "tasks": "Assemble and cook quesadilla"
+}

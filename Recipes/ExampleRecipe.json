@@ -1,0 +1,10 @@
+{
+  "name": "ham sandwich",
+  "ingredients": ["bread","mayo","mustard","ham","lettuce","provolone","tomato"],
+  "recipe": "Make a fucking sandwich",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": false,
+  "days": 2,
+  "tasks": "Make a sandwich"
+}

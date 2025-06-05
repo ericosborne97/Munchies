@@ -1,0 +1,10 @@
+{
+  "name": "rice and beans",
+  "ingredients": ["white rice", "black beans", "onion", "garlic", "cumin", "lime"],
+  "recipe": "Cook rice, heat beans with onion, garlic, and spices. Serve together.",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": true,
+  "days": 3,
+  "tasks": "Cook rice and prepare bean mix"
+}

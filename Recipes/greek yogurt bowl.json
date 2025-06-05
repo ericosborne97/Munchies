@@ -1,0 +1,10 @@
+{
+  "name": "greek yogurt bowl",
+  "ingredients": ["greek yogurt", "honey", "granola", "berries"],
+  "recipe": "Scoop yogurt into bowl, top with granola, berries, and honey.",
+  "breakfast": true,
+  "lunch": false,
+  "dinner": false,
+  "days": 1,
+  "tasks": "Assemble bowl"
+}

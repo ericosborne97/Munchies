@@ -1,0 +1,10 @@
+{
+  "name": "baked chicken and potatoes",
+  "ingredients": ["chicken thighs", "potatoes", "rosemary", "olive oil", "garlic", "salt"],
+  "recipe": "Season chicken and potatoes, bake at 400°F for 40–45 minutes.",
+  "breakfast": false,
+  "lunch": false,
+  "dinner": true,
+  "days": 3,
+  "tasks": "Prep and bake chicken and potatoes"
+}
