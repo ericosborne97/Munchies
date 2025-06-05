@@ -134,7 +134,7 @@ for recipe in dinner_list:
 grocery_list_without_duplicates = list(set(grocery_list_with_duplicates))
 
 
-
+#email
 body_of_email = f'''
 Here is your weekly munchies for 6/5/2025.
 You'll be having the following
