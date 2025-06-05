@@ -470,7 +470,7 @@ msg["Subject"] = subject
 msg.attach(MIMEText(html_body, "html"))
 msg.attach(MIMEText(checkbox_body, "html"))        # the new HTML version
 
-# Send the email
+# Send email
 try:
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
         server.starttls()
