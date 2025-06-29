@@ -1,0 +1,10 @@
+{
+  "name": "Spaghetti",
+  "ingredients": ["Spaghetti noodles","Spaghetti Sauce","Ground Beef"],
+  "recipe": "Boil noodles, brown beef, combine with sauce",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": true,
+  "days": 2,
+  "tasks": "Make spaghetti"
+}

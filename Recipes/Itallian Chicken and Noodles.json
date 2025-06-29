@@ -1,0 +1,10 @@
+{
+  "name": "Italian Chicken and Noodles",
+  "ingredients": ["Chicken","Pasta Noodles box dinner","Olive oil","Butter","Italian Seasoning"],
+  "recipe": "Melt butter and add olive oil to deep pan. Cook chicken and do noodles according to directions",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": true,
+  "days": 2,
+  "tasks": "Brown beef"
+}

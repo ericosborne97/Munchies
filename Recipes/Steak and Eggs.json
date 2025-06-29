@@ -1,0 +1,10 @@
+{
+  "name": "Steak and Eggs",
+  "ingredients": ["Steak","Eggs"],
+  "recipe": "Cook steak for 1.5min on each side, and eggs as you want",
+  "breakfast": true,
+  "lunch": false,
+  "dinner": false,
+  "days": 2,
+  "tasks": "Cook steak and eggs"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Toco",
+  "ingredients": ["Tortillas","Beef","Toco Seasoning","Mexican Cheese","Tomato","Lettuce","Sour Cream","Onion"],
+  "recipe": "Brown beef and add toco seasoning. Then assemble",
+  "breakfast": false,
+  "lunch": true,
+  "dinner": true,
+  "days": 2,
+  "tasks": "Brown beef"
+}
